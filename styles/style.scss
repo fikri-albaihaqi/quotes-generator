@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+
+$garamond: 'EB Garamond', serif;
+$background: #fcf8ed;
+$font-color: #212121;
+$accent-color: #df7861;
+$shaded-accent-color:  #c9614a;
+
+body {
+  overflow-x: hidden;
+  // background-color: $background;
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  color: $font-color;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  top: 20vh;
+}
+
+.quotes {
+  clear: both;
+}
+
+h1, h2 {
+  font-family: $garamond;
+}
+
+.shuffle-button {
+  position: relative;
+  margin-left: 40%;
+  margin-top: 50px;
+  padding: 15px 20px;
+  font-weight: bold;
+  background-color: $accent-color;
+  color: $background;
+  border: none;
+}
+
+.shuffle-button:focus {
+  outline: none;
+}
+
+.shuffle-button:hover {
+  cursor: pointer;
+  background-color: $shaded-accent-color;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
+body {
+  overflow-x: hidden;
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  color: #212121;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  margin: auto;
+  top: 20vh;
+}
+
+.quotes {
+  clear: both;
+}
+
+h1, h2 {
+  font-family: "EB Garamond", serif;
+}
+
+.shuffle-button {
+  position: relative;
+  margin-left: 40%;
+  margin-top: 50px;
+  padding: 15px 20px;
+  font-weight: bold;
+  background-color: #df7861;
+  color: #fcf8ed;
+  border: none;
+}
+
+.shuffle-button:focus {
+  outline: none;
+}
+
+.shuffle-button:hover {
+  cursor: pointer;
+  background-color: #c9614a;
+}
+/*# sourceMappingURL=style.css.map */
